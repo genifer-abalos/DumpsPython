@@ -1,0 +1,19 @@
+{
+    "people": [
+        {
+            "name": "Genifer",
+            "age": 25,
+            "weight": 56
+        },
+        {
+            "name": "Dima",
+            "age": 26,
+            "weight": 60
+        },
+        {
+            "name": "Fer",
+            "age": 39,
+            "weight": 65
+        }
+    ]
+}
