@@ -1,0 +1,18 @@
+When something is synchronously,
+    actually it's not doing much on the CPU
+
+CPU bound tasks
+    - crunching a lot of numbers
+
+IO bound tasks
+    - waitng for input and output
+    i.e. reading/writing from the file system, networking, downloading stuff online
+
+
+We benefit using threading for IO bound tasks
+
+For CPU bound tasks, we might be better off using multithreading
+
+
+
+

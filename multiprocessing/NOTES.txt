@@ -1,0 +1,12 @@
+for CPU bound tasks
+
+runs in parallels
+
+
+Use case,
+    image processing instead of image downloading
+
+    image processing uses CPU
+    image downloading uses IO 
+
+
