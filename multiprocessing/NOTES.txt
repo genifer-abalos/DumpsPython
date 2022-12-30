@@ -7,6 +7,15 @@ Use case,
     image processing instead of image downloading
 
     image processing uses CPU
-    image downloading uses IO 
+    image downloading uses IO
 
 
+Note:
+In using concurrent.futures module,
+    you can easily SWITCH this to ThreadPoolExecutor
+
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        executor.map(process_image, image_names)
+
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        future_results = executor.map(download_image, image_urls)
