@@ -1,0 +1,29 @@
+pip install python-decouple
+
+Create a .env file
+    write credentials inside .env
+
+    sample:
+
+        username = "python-lover"
+        password = "zenofpython123"
+
+
+In a python script,
+    import the credentials
+
+
+    sample:
+
+        from decouple import config
+
+        username = config('username', default='')
+        password = config('password', default='')
+
+        print(username, password)
+
+
+To hide the .env file and its credentials when pushing with git,
+
+create a .gitignore file in the same directory and add,
+    .env
