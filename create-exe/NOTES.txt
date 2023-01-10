@@ -1,0 +1,12 @@
+Install library:
+    pip install pyinstaller
+
+To create a .exe
+    pyinstaller <file name>.py
+    pyinstaller --onefile <file name>.py
+    pyinstaller --onefile --noconsole <file name>.py        # GUI programs
+    pyinstaller --onefile --windowed --icon=<project-logo>.ico --add-data "<folder>;<folder>" <filename.py>
+
+This will generate a build/ and dist/ folder
+    the executable file can be found in
+        /dist/<python file without .py>/lib-dynload/<python file without .py>.exe
