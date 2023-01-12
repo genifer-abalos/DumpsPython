@@ -52,5 +52,3 @@ tickets.update(distributed_ticket_lists)        # undo
 print(tickets)
 tickets.clear()                                 # remove all
 print(tickets)
-
-
