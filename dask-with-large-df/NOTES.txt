@@ -1,0 +1,26 @@
+we have seen two major reasons not to use pandas for large datasets,
+    - one is computer memory usage and
+    - the second is the absence of parallelism.
+ In the case of NumPy, and Scikit-learn, they are also unable to load huge datasets having the same issues.
+
+To overcome these two major problems, there exists a python library named Dask,
+    - which gives us the ability to perform
+        - pandas,
+        - NumPy, and
+        - ML operations
+     on large datasets.
+
+
+Dask Documentation:
+    https://docs.dask.org/en/stable/
+
+    pip install dask
+
+
+Comparing runtime for read_csv of recipes.csv (~700MB)
+    demo-pandas = 5.6s
+    demo-dask   = 0.0051s
+
+
+Article:
+    https://medium.com/@fareedkhandev/handling-large-datasets-in-python-42f57ccbbd1b
