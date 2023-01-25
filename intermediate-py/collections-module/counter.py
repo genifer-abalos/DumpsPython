@@ -50,5 +50,5 @@ tickets.subtract(distributed_ticket_lists)      # remove the distributed tickets
 print(tickets)
 tickets.update(distributed_ticket_lists)        # undo
 print(tickets)
-tickets.clear()                                 # remove all
-print(tickets)
+# tickets.clear()                                 # remove all
+# print(tickets)
